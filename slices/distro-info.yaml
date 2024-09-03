@@ -1,0 +1,19 @@
+package: distro-info
+
+essential:
+  - distro-info_copyright
+
+slices:
+  config:
+    essential:
+      - libc6_libs
+      - distro-info-data_config
+    contents:
+      /usr/bin/debian-distro-info:
+      /usr/bin/distro-info:
+      /usr/bin/ubuntu-distro-info:
+      
+  copyright:
+    contents:
+      /usr/share/doc/distro-info/copyright:
+
