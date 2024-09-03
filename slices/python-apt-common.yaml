@@ -1,0 +1,13 @@
+package: python-apt-common
+
+essential:
+  - python-apt-common_copyright
+
+slices:
+  templates:
+    contents:
+      /usr/share/python-apt/templates/*:
+
+  copyright:
+    contents:
+      /usr/share/doc/python-apt-common/copyright:
