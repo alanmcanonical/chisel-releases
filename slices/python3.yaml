@@ -1,0 +1,19 @@
+package: python3
+
+essential:
+  - python3_copyright
+
+slices:
+  bins:
+    essential:
+      - python3-minimal_bins
+      - libpython3.12-stdlib_core
+      - python3.12_standard
+    contents:
+      /usr/bin/pdb3:
+      /usr/bin/pydoc3:
+      /usr/bin/pygettext3:
+
+  copyright:
+    contents:
+      /usr/share/doc/python3/copyright:
