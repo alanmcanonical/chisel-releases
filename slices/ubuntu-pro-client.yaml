@@ -1,0 +1,54 @@
+package: ubuntu-pro-client
+
+essential:
+  - ubuntu-pro-client_copyright
+
+slices:
+  bins:
+    essential:
+      - distro-info_config
+      - libapt-pkg6.0t64_libs
+      - libc6_libs
+      - libgcc-s1_libs
+      - libjson-c5_libs
+      - libstdc++6_libs
+      - python3-apt_bins
+      - python3-pkg-resources_bins
+      - python3-yaml_bins
+      - python3_bins
+    contents:
+      /etc/update-motd.d/91-contract-ua-esm-status:
+      /usr/bin/pro:
+      /usr/bin/ua:
+      /usr/bin/ubuntu-advantage:
+      /usr/lib/python3/dist-packages/uaclient/*:
+      /usr/lib/python3/dist-packages/ubuntu_pro_client-8001.egg-info/*:
+      /usr/lib/ubuntu-advantage/*:
+      /usr/share/apport/package-hooks/source_ubuntu-advantage-tools.py:
+
+  config:
+    contents: 
+      /etc/apparmor.d/ubuntu_pro_apt_news:
+      /etc/apt/apt.conf.d/20apt-esm-hook.conf:
+      /etc/apt/preferences.d/ubuntu-pro-esm-apps:
+      /etc/apt/preferences.d/ubuntu-pro-esm-infra:
+      /etc/logrotate.d/ubuntu-pro-client:
+      /etc/ubuntu-advantage/uaclient.conf:
+      /etc/update-manager/release-upgrades.d/ubuntu-advantage-upgrades.cfg:
+
+  keys:
+    contents: 
+      /usr/share/keyrings/ubuntu-pro-*:
+    
+  extras:
+    contents:
+      /lib/systemd/system/apt-news.service:
+      /lib/systemd/system/esm-cache.service:
+      /lib/systemd/system/ua-reboot-cmds.service:
+      /lib/systemd/system/ua-timer.service:
+      /lib/systemd/system/ua-timer.timer:
+      /lib/systemd/system/ubuntu-advantage.service:
+
+  copyright:
+    contents:
+      /usr/share/doc/ubuntu-pro-client/copyright:
