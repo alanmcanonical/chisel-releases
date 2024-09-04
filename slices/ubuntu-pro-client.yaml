@@ -22,6 +22,15 @@ slices:
       /usr/bin/ua:
       /usr/bin/ubuntu-advantage:
       /usr/lib/python3/dist-packages/uaclient/*:
+      /usr/lib/python3/dist-packages/uaclient/api/*:
+      /usr/lib/python3/dist-packages/uaclient/cli/*:
+      /usr/lib/python3/dist-packages/uaclient/clouds/*:
+      /usr/lib/python3/dist-packages/uaclient/daemon/*:
+      /usr/lib/python3/dist-packages/uaclient/entitlements/*:
+      /usr/lib/python3/dist-packages/uaclient/files/*:
+      /usr/lib/python3/dist-packages/uaclient/http/*:
+      /usr/lib/python3/dist-packages/uaclient/messages/*:
+      /usr/lib/python3/dist-packages/uaclient/timer/*:
       /usr/lib/python3/dist-packages/ubuntu_pro_client-8001.egg-info/*:
       /usr/lib/ubuntu-advantage/apt-esm-json-hook:
       /usr/lib/ubuntu-advantage/apt_news.py:
