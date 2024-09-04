@@ -23,7 +23,16 @@ slices:
       /usr/bin/ubuntu-advantage:
       /usr/lib/python3/dist-packages/uaclient/*:
       /usr/lib/python3/dist-packages/ubuntu_pro_client-8001.egg-info/*:
-      /usr/lib/ubuntu-advantage/*:
+      /usr/lib/ubuntu-advantage/apt-esm-json-hook:
+      /usr/lib/ubuntu-advantage/apt_news.py:
+      /usr/lib/ubuntu-advantage/auto_attach.py:
+      /usr/lib/ubuntu-advantage/cloud-id-shim.sh:
+      /usr/lib/ubuntu-advantage/convert_list_to_deb822.py:
+      /usr/lib/ubuntu-advantage/daemon.py:
+      /usr/lib/ubuntu-advantage/esm_cache.py:
+      /usr/lib/ubuntu-advantage/reboot_cmds.py:
+      /usr/lib/ubuntu-advantage/timer.py:
+      /usr/lib/ubuntu-advantage/upgrade_lts_contract.py:      
       /usr/share/apport/package-hooks/source_ubuntu-advantage-tools.py:
 
   config:
