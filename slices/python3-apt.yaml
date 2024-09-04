@@ -6,12 +6,12 @@ essential:
 slices:
   bins:
     contents:
-      /usr/lib/python3/dist-packages/apt/*:
+      /usr/lib/python3/dist-packages/apt/**:
       /usr/lib/python3/dist-packages/apt_inst-stubs/__init__.pyi:
       /usr/lib/python3/dist-packages/apt_inst.cpython-312-x86_64-linux-gnu.so:
       /usr/lib/python3/dist-packages/apt_pkg-stubs/__init__.pyi:
       /usr/lib/python3/dist-packages/apt_pkg.cpython-312-x86_64-linux-gnu.so:
-      /usr/lib/python3/dist-packages/aptsources/:
+      /usr/lib/python3/dist-packages/aptsources/*:
 
   copyright:
     contents:
