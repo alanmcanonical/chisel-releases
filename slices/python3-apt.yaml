@@ -1,7 +1,7 @@
 package: python3-apt
 
 essential:
-  - python-apt_copyright
+  - python3-apt_copyright
 
 slices:
   bins:
