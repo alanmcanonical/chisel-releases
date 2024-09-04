@@ -1,0 +1,19 @@
+package: ubuntu-advantage-tools
+
+essential:
+  - ubuntu-advantage-tools_copyright
+
+slices:
+  bins:
+    essential:
+      - debconf_bins
+      - debconf_config
+      - ubuntu-pro-client_bins
+      - ubuntu-pro-client_config
+      - ubuntu-pro-client_keys
+    contents:
+      /usr/lib/ubuntu-advantage/*:
+
+  copyright:
+    contents:
+      /usr/share/doc/ubuntu-advantage-tools/copyright:
