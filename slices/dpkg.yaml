@@ -1,0 +1,34 @@
+package: dpkg
+
+essential:
+  - dpkg_copyright
+
+slices:
+  bins:
+    essential:
+      - libbz2-1.0_libs
+      - libc6_libs
+      - liblzma5_libs
+      - libselinux1_libs
+      - libzstd1_libs
+      - tar_tar
+      - zlib1g_libs
+    contents:
+      /usr/bin/dpkg*:
+      /usr/bin/update-alternatives:
+      /usr/libexec/dpkg/dpkg-db-backup:
+      /sbin/start-stop-daemon:
+
+  config:
+    contents:
+      /etc/dpkg/dpkg.cfg:
+
+  locales:
+    essential:
+      - dpkg_bins
+    contents:
+      /usr/share/locale/**/dpkg.mo:
+
+  copyright:
+    contents:
+      /usr/share/doc/dpkg/copyright:
