@@ -1,0 +1,27 @@
+package: python3-apt
+
+essential:
+  - python3-apt_copyright
+
+slices:
+  bins:
+    essential:
+      - distro-info-data_config
+      - libapt-pkg6.0_libs
+      - libc6_libs
+      - libgcc-s1_libs
+      - libstdc++6_libs
+      - libsystemd0_libs
+      - python-apt-common_templates
+      - python3.10_core
+    contents:
+      /usr/lib/python3/dist-packages/apt/**:
+      /usr/lib/python3/dist-packages/apt_inst-stubs/__init__.pyi:
+      /usr/lib/python3/dist-packages/apt_inst.cpython-310-x86_64-linux-gnu.so:
+      /usr/lib/python3/dist-packages/apt_pkg-stubs/__init__.pyi:
+      /usr/lib/python3/dist-packages/apt_pkg.cpython-310-x86_64-linux-gnu.so:
+      /usr/lib/python3/dist-packages/aptsources/*:
+
+  copyright:
+    contents:
+      /usr/share/doc/python3-apt/copyright:
