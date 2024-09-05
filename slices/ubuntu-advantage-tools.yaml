@@ -1,0 +1,29 @@
+package: ubuntu-advantage-tools
+
+essential:
+  - ubuntu-advantage-tools_copyright
+
+slices:
+  bins:
+    essential:
+      - debconf_bins
+      - debconf_config
+      - distro-info_config
+      - libapt-pkg6.0_libs
+      - libc6_libs
+      - libgcc-s1_libs
+      - libstdc++6_libs
+      - python3-apt_bins
+      - python3-pkg-resources_bins
+      - python3-yaml_bins
+      - python3-minimal_bins
+      - ubuntu-pro-client_bins
+      - ubuntu-pro-client_config
+      - ubuntu-pro-client_keys
+    contents:
+      /usr/lib/ubuntu-advantage/migrate_user_config.py:
+      /usr/lib/ubuntu-advantage/patch_status_json.py:
+
+  copyright:
+    contents:
+      /usr/share/doc/ubuntu-advantage-tools/copyright:
