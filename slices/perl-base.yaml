@@ -1,0 +1,19 @@
+package: perl-base
+
+essential:
+  - perl-base_copyright
+
+slices:
+  bins:
+    essential:
+      - dpkg_bins
+      - libc6_libs
+      - libcrypt1_libs
+    contents:
+      /usr/bin/perl:
+      /usr/bin/perl5.34.0: {copy: /usr/bin/perl}
+      /usr/lib/x86_64-linux-gnu/perl-base/**:
+
+  copyright:
+    contents:
+      /usr/share/doc/perl-base/copyright:
